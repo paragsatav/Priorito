@@ -1,0 +1,16 @@
+.appSection{
+    width: 33.33%;
+    margin: 20px;
+}
+
+
+.sectionHeading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.appimage{
+    width: 30px;
+    margin-right: 5px;
+}

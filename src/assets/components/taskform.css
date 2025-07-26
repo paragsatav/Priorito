@@ -1,0 +1,80 @@
+.appHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #c5c0b6;
+    padding: 20px 0;
+}
+
+.appheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appHeader > form {
+    width: 40%;
+}
+
+.inputBox {
+    font-weight: 400;
+    font-size: 0.95rem;
+    background-color: #f8f8f3;
+    color: #222;
+    border: 1px solid #83837d;
+    border-radius: 6px;
+    padding: 15px 8%;
+    margin-bottom: 10px;
+    width: 100%;
+    transition: border-color 0.2s ease;
+}
+
+.inputBox:focus {
+    outline: none;
+    border-color: #4f1d90;
+    background-color: #fcfcf8;
+}
+
+.bottonLineButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.taskStatus {
+    font-weight: 500;
+    font-size: 0.75rem;
+    background-color: rgb(245, 245, 220);
+    color: #000;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    width: 120px;
+    height: 40px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.taskStatus:hover {
+    background-color: #f0e9c4;
+    transform: scale(1.03);
+}
+
+.addButton {
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgb(79, 29, 144);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.addButton:hover {
+    background-color: rgb(64, 20, 122);
+    transform: scale(1.05);
+}
